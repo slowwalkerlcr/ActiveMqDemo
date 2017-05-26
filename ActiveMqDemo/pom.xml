@@ -5,7 +5,10 @@
   <groupId>com.activemq.lvcr</groupId>
   <artifactId>ActiveMqDemo</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+    <modules>
+        <module>../SpringActivemq</module>
+    </modules>
+    <packaging>pom</packaging>
 
   <name>ActiveMqDemo</name>
   <url>http://maven.apache.org</url>
